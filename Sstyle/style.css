@@ -208,3 +208,53 @@ header{
     gap: 50px;
     align-items: center;
 }
+.resume > h2{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin-bottom: 110px;
+}
+.edu-container > h3 , .exp-container > h3{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+.edu > h4, .exp > h4{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+.edu > h5, .exp > h5{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+.edu > p, .exp > p{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+.edu-container > hr , .exp-container > hr{
+    border: 1px solid rgb(209, 209, 209);
+    margin-bottom: 30px;
+}
+.resume{
+    text-align: center;
+    width: 1450px;
+    margin: 0px auto 130px;
+}
+.info{
+    text-align: left;
+}
+.resume-btn{
+    margin-top: 30px;
+}
