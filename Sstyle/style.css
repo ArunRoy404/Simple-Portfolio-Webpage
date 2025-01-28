@@ -106,3 +106,105 @@ header{
     background-position: left, bottom right;
 }
 
+.about h2{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+.about p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.info h5{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.info h4{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.about{
+    margin: 130px auto;
+    width: 1140px;
+    padding: 130px 155px;
+}
+.about-container{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.skill-section h2{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+.skill-section > p{
+    width: 1210px ;
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+.skill h3{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+.skill p{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+.skill{
+    padding: 30px;
+    width: 240px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.skill-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skill-section{
+    width: 1450px;
+    margin: 0px auto 130px;
+}
+.skill-section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
