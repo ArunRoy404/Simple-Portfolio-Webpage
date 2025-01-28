@@ -258,3 +258,51 @@ header{
 .resume-btn{
     margin-top: 30px;
 }
+footer{
+    padding: 130px 230px;
+}
+
+footer h1{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+footer p{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+footer .icons{
+    display: flex;
+    gap: 20px
+}
+
+footer .content, .form{
+    width: 40%;
+}
+
+.form label{
+    display: block;
+}
+.form .input, textarea{
+    height: 22px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 18px 30px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+textarea{
+    height: 140px;
+}
+footer > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
